@@ -42,5 +42,7 @@ class Song
       song 
     end 
     
+  def self.alphabetical
+    
   
 end
