@@ -18,7 +18,7 @@ class Song
   end 
   
   def self.new_by_name(song_name)
-    self.all.find{
+    self.all.find {|
   end 
   
 
