@@ -36,7 +36,7 @@ class Song
   def self.find_or_create_by_name(song_name)
       song = self.find_by_name(song_name)
       if song.nil?
-        song = self.new_by_name(song_name)
+        song = self.create_by_name(song_name)
         return song 
       end
       song 
