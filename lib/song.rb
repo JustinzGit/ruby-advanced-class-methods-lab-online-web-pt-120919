@@ -14,6 +14,7 @@ class Song
     self.class.all << self
   end
   
+  # Class method
   def self.create
     self.all << self.new
   end 
